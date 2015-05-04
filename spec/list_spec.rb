@@ -37,4 +37,11 @@ describe(List) do
       expect(List.all()).to(eq([list]))
     end
   end
+
+  describe("#tasks") do
+    it("shows all tasks in a list") do
+      list1 = List.new({:name => "zebra things", :id => 1})
+      list2 = List.new({:name => "animal things", :id => 2})
+    end
+  end
 end
